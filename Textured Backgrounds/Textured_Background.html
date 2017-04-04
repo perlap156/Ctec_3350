@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Textured Background: JavaJam</title>
+
+<style>
+
+	@font-face{
+		font-family: 'Angeline_Vintage_Demo';
+		src: url(burntilldead_angeline-vintage/Angeline_Vintage_Demo.otf);
+	}
+	
+	@font-face{
+		font-family: 'Montserrat-Regular';
+		src: url(Montserrat/Montserrat-Regular.ttf)
+	}
+	
+	h3{
+		font-family: 'Angeline_Vintage_Demo';
+		color: #f99f3d;
+		font-size: 4.5em;
+	}
+	
+	body{
+		background-image: url(Images/Blackboard_Background.jpg);
+		background-size: cover;
+	}
+	
+	p{
+		color:white;
+		font-size: 1em;
+		font-family: 'Montserrat-Regular', sans-serif;
+		line-height: 1.5em;	
+	}
+	
+	.reposition_p{
+		position: relative;
+		top:-100px;
+	}
+	
+	p a{
+		text-decoration: none;
+		color:white; 
+		padding: 1em;
+		
+	}
+	
+	.ourmenu{
+		border: 1px solid #f99f3d;
+		border-radius: 1em;
+		width: 8.5%;
+		margin-left: 8em;
+		position: relative;
+		top:-135px;
+	}
+	
+	.ourmenu:hover{
+		background-color:#f99f3d;
+		opacity: 0.9;
+	}
+	
+	.featured_image {
+    padding: 1em 0;
+  	position: relative;
+	top:-520px;
+	left: 650px;
+	
+  }
+	
+
+	.context{
+		width:25%;
+		margin: 8em;
+		
+	}
+	
+	img.img_responsive {
+    max-width: 100%;
+    height: auto;
+}
+	/********************************** RESPONSIVE DESIGN ***********************************************************/
+	
+	@media screen and (max-width: 30em)
+{
+	.context{
+		width: 50%;
+		position: relative;
+		top:100px;
+		margin: 2em;
+	}
+	.featured_image{
+		width: 173px;
+		height: 173px;
+		top:-600px;
+		left:15%;
+	}
+	
+	.ourmenu{
+		width: 35%;
+		top:0px;
+		margin-left: 2em;
+	}
+}
+
+
+@media screen and (min-width:30.01em) and (max-width: 48em)
+{
+		.context{
+		width: 70%;
+		position: relative;
+		top:100px;
+		margin: 4em;
+	}
+	.featured_image{
+		width: 247px;
+		height: 247px;
+		top:-600px;
+		left:15%;
+	}
+	
+	.ourmenu{
+		width: 25%;
+		top:0px;
+		margin-left: 4em;
+	}
+
+}
+
+@media screen and (min-width:48.01em) and (max-width: 60em)
+{
+	.context{
+		width: 70%;
+		position: relative;
+		top:100px;
+		margin: 4em;
+	}
+	.featured_image{
+		width: 247px;
+		height: 247px;
+		top:-600px;
+		left:15%;
+	}
+	
+	.ourmenu{
+		width: 25%;
+		top:0px;
+		margin-left: 4em;
+	}
+	
+	
+}
+
+@media screen and (min-width:60.01em) and (max-width: 80em)
+{
+	.ourmenu{
+		border: 1px solid #f99f3d;
+		border-radius: 1em;
+		width: 12%;
+		margin-left: 2em;
+		position: relative;
+		top:-95px;
+	}
+	
+	.featured_image {
+    padding: 1em 0;
+  	position: relative;
+	top:-470px;
+	left: 450px;
+	
+  }
+	
+
+		.context{
+		width: 25%;
+
+		margin: 2em;
+	}
+}
+
+
+</style>
+</head>
+
+<body>
+<div class="container">
+	<div class="context">
+	<h3>Explore! </h3>
+	<p class="reposition_p"> Take your taste buds on a trip through our new, and improved menu. Our organic ingredients support the work of local farmers. </p>
+	</div>
+	
+	<div class="ourmenu">
+	<p><a href="#">Our Menu</a></p>
+
+	</div>
+	
+	<div class="featured_image"><img src="Images/Mug_Cutout_60-80em.png" alt="a white coffee mug with latte art on top" width="495" height="495" class="img_responsive"></div>
+	
+	</div>
+	
+</body>
+</html>
