@@ -310,7 +310,7 @@ h1{
     
     float:right;
     position:relative;
-    top: -4000px;
+    top: -4600px;
     width: 450px;
     
     
@@ -319,6 +319,7 @@ h1{
 .fixed{
     position: fixed;
 }
+
 
 ul{
     margin:1em;
