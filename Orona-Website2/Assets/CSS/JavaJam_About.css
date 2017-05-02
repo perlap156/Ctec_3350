@@ -309,6 +309,11 @@ input[type=submit]{
     background-color: transparent;
 }
 
+.burger{
+    display: none;
+}
+
+
 /**********************************Footer****************************************************/
 
 .scroll-container{
